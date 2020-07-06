@@ -24,7 +24,7 @@ const Profile =() => {
     <div className="Profile-wrapper">
       <Avatar />
       <h1>{title}</h1>
-    <h2>{position}</h2>
+      <h2>{position}</h2>
       <p>{description}</p>
     </div>
   )

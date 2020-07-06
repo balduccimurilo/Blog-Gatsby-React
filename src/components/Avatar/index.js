@@ -17,8 +17,7 @@ const Avatar = () => {
         }
       }     
     }
-    `
-  )
+    `);
 
   return <Img fixed={avatarImage.childImageSharp.fixed}/>
 }
