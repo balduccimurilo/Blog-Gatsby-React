@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.6.0",
+    "@styled-icons/boxicons-regular": "^10.6.0",
+    "@styled-icons/boxicons-solid": "^10.6.0",
+    "@styled-icons/material": "^10.7.0",
     "gatsby": "^2.13.50",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.4",

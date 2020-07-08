@@ -3,9 +3,9 @@ module.exports = {
 
 
   siteMetadata: {
-    title: `Personal Blog`,
+    title: `Murilo Balducci`,
     position: `Desenvolvedor FullStack`,
-    description: `A blog about finance and development`,
+    description: `Membro da HST Card Technology. Vamos falar sobre finanças e programação?`,
     author: `@murilobalducci`,
   },
   plugins: [
