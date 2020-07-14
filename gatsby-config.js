@@ -1,3 +1,8 @@
+require("dotenv").config()
+
+const queries = require("./src/utils/algolia_queries")
+
+
 module.exports = {
   
 
@@ -9,6 +14,7 @@ module.exports = {
     author: `@murilobalducci`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // Nesse caso precisa ser sempre a primeira com gatsby-remark-images
     {
@@ -69,6 +75,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-algolia-search`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+        enablePartialUpdates: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
