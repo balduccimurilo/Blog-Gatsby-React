@@ -14,6 +14,7 @@ module.exports = {
     author: `@murilobalducci`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // Nesse caso precisa ser sempre a primeira com gatsby-remark-images
