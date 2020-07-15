@@ -12,7 +12,7 @@ module.exports = {
     position: `Desenvolvedor FullStack`,
     description: `Membro da HST Card Technology. Vamos falar sobre finanças e programação?`,
     author: `@murilobalducci`,
-    siteUrl: `https://murilobalducci.com`,
+    siteUrl: `https://murilobalducci.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
