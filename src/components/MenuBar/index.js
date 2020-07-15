@@ -55,7 +55,6 @@ const MenuBar = () => {
           window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
         }}> 
           {isListMode ? <Grid /> : <List />}
-          <Grid /> 
         </S.MenuBarItem>
         <S.MenuBarItem title="Ir para o topo">
           <Arrow />
