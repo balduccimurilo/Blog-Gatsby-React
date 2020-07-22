@@ -29,7 +29,7 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["jerkyll", "css", "js", "html", "svg", "dev", "misc"]
+        options: ["jerkyll", "css", "js", "html", "svg", "dev", "misc", "mkt", "NEG"]
       }
       - {
         label: "Background",
@@ -39,10 +39,12 @@ collections:
           { label: "Jekyll", value: "#B31917" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#D6BA32' },
-          { label: 'HTML', value: '#EB7728' },
+          { label: 'HTML', value: '#B31917' },
           { label: 'SVG', value: '#7D669E' },
-          { label: 'Dev', value: '#637a91' },
-          { label: 'Misc', value: '#7AAB13' },
+          { label: 'DEV', value: '#637a91' },
+          { label: 'MISC', value: '#9D005C' },
+          { label: 'MKT', value: '#EB7728' },
+          { label: 'NEG', value: '#8BC344' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
