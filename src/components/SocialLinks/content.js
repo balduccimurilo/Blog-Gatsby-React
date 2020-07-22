@@ -1,4 +1,4 @@
-const Links = [
+const links = [
   {
     label: 'Github',
     url: 'https://github.com/balduccimurilo'
@@ -13,5 +13,5 @@ const Links = [
   },
 ]
 
-export default Links;
+export default links;
 

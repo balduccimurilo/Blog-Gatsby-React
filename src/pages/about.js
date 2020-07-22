@@ -8,6 +8,7 @@ import { MainContent } from "../styles/base"
 import SocialImageLinks from "../components/SocialImageLinks"
 
 const AboutPage = () => (
+  <div>
   <Layout>
     <SEO
       title="Sobre mim"
@@ -80,6 +81,7 @@ const AboutPage = () => (
       <SocialLinks />
     </MainContent>
   </Layout>
+  </div>
 )
 
 export default AboutPage
