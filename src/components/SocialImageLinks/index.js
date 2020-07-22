@@ -2,7 +2,7 @@ import React from "react"
 import * as S from "./styled"
 
 import Icons from "../SocialLinks/Icons"
-import links from "../SocialLinks/content"
+import Links from "../SocialLinks/content"
 
 const SocialImageLinks = () => {
   return (
@@ -16,7 +16,7 @@ const SocialImageLinks = () => {
             ></img>
             <h2>Murilo Balducci</h2>
             <ul>
-              {links.map((link, i) => {
+              {Links.map((link, i) => {
                 const Icon = Icons[link.label]
                 return (
                   <li>
