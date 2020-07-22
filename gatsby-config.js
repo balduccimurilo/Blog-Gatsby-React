@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://murilobalducci.netlify.com`,
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
