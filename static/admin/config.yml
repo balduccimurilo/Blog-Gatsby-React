@@ -38,11 +38,11 @@ collections:
         options: [
           { label: "Jekyll", value: "#B31917" },
           { label: 'CSS', value: '#2DA0C3' },
-          { label: 'JS', value: '#D6BA32' },
+          { label: 'JS', value: '#e6a119' },
           { label: 'HTML', value: '#B31917' },
-          { label: 'SVG', value: '#7D669E' },
-          { label: 'DEV', value: '#637a91' },
-          { label: 'MISC', value: '#9D005C' },
+          { label: 'SVG', value: '#9571c7' },
+          { label: 'DEV', value: '#f0cb1a' },
+          { label: 'GERAL', value: '#09e3df' },
           { label: 'MKT', value: '#EB7728' },
           { label: 'NEG', value: '#8BC344' },
         ]
