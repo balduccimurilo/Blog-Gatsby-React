@@ -38,10 +38,6 @@ Vou passar aqui os dois cursos que eu fiz antes de ir morar nos Estados Unidos (
 
 #### Segue o link: `https://bit.ly/2PJnAkZ` - É baratinho e compensa demais.
 
-## Curso 2:
-
-#### O segundo curso é para quem busca um conhecimento do zero ao mais avançado. Segue o link: `https://bit.ly/33SymOd`
-
 # **Conclusão:**
 
 Estude, divirta-se, mude sua rotina e tenha o máximo contato com a língua, troque o idioma do seu celular e etc...
