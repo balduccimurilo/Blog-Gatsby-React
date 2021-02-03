@@ -29,22 +29,23 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["jerkyll", "css", "js", "html", "svg", "dev", "misc", "mkt", "NEG"]
+        options: ["news", "css", "js", "html", "git", "svg", "dev", "geral", "livros", "NEGÓCIOS"]
       }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Jekyll", value: "#B31917" },
+          { label: "NOTÍCIAS", value: "#e6a119" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#e6a119' },
-          { label: 'HTML', value: '#B31917' },
+          { label: 'HTML', value: '#e6a119' },
+          { label: 'GIT', value: '#e6a119' },
           { label: 'SVG', value: '#9571c7' },
-          { label: 'DEV', value: '#f0cb1a' },
-          { label: 'GERAL', value: '#09e3df' },
-          { label: 'MKT', value: '#EB7728' },
-          { label: 'NEG', value: '#8BC344' },
+          { label: 'DESENVOLVIMENTO', value: '#e6a119' },
+          { label: 'GERAL', value: '#e6a119' },
+          { label: 'LIVROS', value: '#e6a119' },
+          { label: 'NEGÓCIOS', value: '#e6a119' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
