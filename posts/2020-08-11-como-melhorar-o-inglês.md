@@ -3,8 +3,8 @@ title: Como melhorar o inglês ?
 description: Te ajudando a melhorar o inglês
 date: 2020-08-10 09:12:05
 thumbnail: assets/img/english_forever.jpg
-category: misc
-background: "#09e3df"
+category: geral
+background: "#e6a119"
 ---
 Morei um tempo na Califórnia e vou te passar algumas coisas sobre pronunciation, skills e speed learning. Juntei algumas informações e vou falar aqui para vocês.
 
