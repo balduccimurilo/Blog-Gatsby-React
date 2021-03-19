@@ -18,7 +18,7 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image}
+        image={post.frontmatter.thumbnail}
       />
       <S.PostHeader>
         <S.PostDate>
@@ -37,7 +37,7 @@ const BlogPost = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query Post($slug: String!) {
+  query Post($slug: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
@@ -46,7 +46,7 @@ export const query = graphql`
         title
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-        image
+        thumbnail
       }
       html
       timeToRead
