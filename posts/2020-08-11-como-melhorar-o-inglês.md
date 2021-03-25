@@ -8,6 +8,8 @@ background: "#e6a119"
 ---
 Morei um tempo na Califórnia e vou te passar algumas coisas sobre pronunciation, skills e speed learning. Juntei algumas informações e vou falar aqui para vocês.
 
+![English for everyone](assets/img/english_forever.jpg "English for everyone")
+
 ## As principais são :
 
 * Sotaque é mais o nosso perfeccionismo de querer falar corretamente do que relevante quando se está falando em inglês, então keep calm você vai chegar lá. Mantenha a calma, errar faz parte, você não é um nativo, então você tem que colocar na sua cabeça que você vai ter sotaque e perder o medo, apenas fale sem medo!
