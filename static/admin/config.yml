@@ -25,6 +25,7 @@ collections:
           format: "YYYY-MM-DD hh:mm:ss",
         }
       - { label: "image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - {
         label: "Category",
         name: "category",
@@ -48,4 +49,3 @@ collections:
           { label: 'NEGÓCIOS', value: '#e6a119' },
         ]
       }
-      - { label: "Body", name: "body", widget: "markdown" }

@@ -3,15 +3,12 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
   module.exports = {
-  flags: {
-    DEV_SSR: false
-  },
   siteMetadata: {
     title: `Murilo Balducci`,
     position: `Desenvolvedor FullStack`,
     description: `Membro da HST Card Technology. Vamos falar sobre finanças e programação?`,
     author: `@murilobalducci`,
-    siteUrl: `https://murilobalducci.netlify.app`,
+    siteUrl: `https://murilobalducci.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
