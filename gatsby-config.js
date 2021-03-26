@@ -2,17 +2,16 @@ require("dotenv").config()
 
 const queries = require("./src/utils/algolia_queries")
 
-
-module.exports = {
-  
-
-
+  module.exports = {
+  flags: {
+    DEV_SSR: false
+  },
   siteMetadata: {
     title: `Murilo Balducci`,
     position: `Desenvolvedor FullStack`,
     description: `Membro da HST Card Technology. Vamos falar sobre finanças e programação?`,
     author: `@murilobalducci`,
-    siteUrl: `https://murilobalducci.netlify.com`,
+    siteUrl: `https://murilobalducci.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
@@ -55,7 +54,7 @@ module.exports = {
         // Plugins configs
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: "gatsby-remark-relative-images-v2",
             options: {
               name: "uploads"
             }
@@ -76,6 +75,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,

@@ -1,19 +1,17 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.sourceNodes = ({actions, schema}) => {
+exports.sourceNodes = ({ actions, schema }) => {
   const { createTypes } = actions
 
   createTypes(`
-      type MarkdownRemarkFrontmatter {
+    type MarkdownRemarkFrontmatter {
       image: String
     }
-    
     type MarkdownRemark implements Node {
       frontmatter: MarkdownRemarkFrontmatter
     }
-  
-    `)
+  `)
 }
 
 // To add the slug field to each post
@@ -27,7 +25,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       getNode,
       basePath: "pages",
     })
-
     // Creates new query'able field with name of 'slug'
     createNodeField({
       node,
@@ -36,32 +33,46 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
-
-// To create the posts pages
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
-  query PostList {
-    allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
-      edges {
-        node {
-          fields {
-            slug
+    {
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              background
+              category
+              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              description
+              title
+              image
+            }
+            timeToRead
           }
-          frontmatter {
-            background
-            category
-            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-            description
-            title
-            image
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
           }
-          timeToRead
+          previous {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
         }
       }
     }
-  }
-  `).then(result => {
+  `).then((result) => {
     const posts = result.data.allMarkdownRemark.edges
 
     posts.forEach(({ node }) => {
