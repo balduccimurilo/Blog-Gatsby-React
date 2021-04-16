@@ -32,7 +32,7 @@ background: "#e6a119"
 
 ### Rede descentralizada, criptografada e acessada pelo I2P.
 
-![](assets/img/inforgrafico-darkweb-2-.jpg)
+![Camadas da Deep ](assets/img/inforgrafico-darkweb-2-.jpg "Camadas da Deep Webb")
 
 ## Quer saber mais sobre?
 
@@ -40,6 +40,6 @@ background: "#e6a119"
 
 ## Link para visualizar:
 
-[](https://www.canva.com/design/DAEbsKxuPZg/n1o5UlYEk9x0Rl7t1iNHgQ/view?utm_content=DAEbsKxuPZg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+**Link:** <https://www.canva.com/design/DAEbsKxuPZg/n1o5UlYEk9x0Rl7t1iNHgQ/view?utm_content=DAEbsKxuPZg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton>
 
 <!--EndFragment-->
