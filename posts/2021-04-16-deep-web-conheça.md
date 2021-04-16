@@ -14,23 +14,25 @@ background: "#e6a119"
 
 #### **Podemos começar explicando um pouco melhor o que é a internet comum, para então, depois explicar o que é Deep Web e até aprofundar um pouco mais e explicar sobre a Dark Web.**
 
-### Surface Web
+## Surface Web
 
-#### **A Surface Web é a internet comum, onde a maioria dos usuários navega durante o dia, é uma camada de fácil e amplo acesso. Os buscadores como Google, Bing, DuckDuckGo estão localizados nessa camada.**
+A Surface Web é a internet comum, onde a maioria dos usuários navega durante o dia, é uma camada de fácil e amplo acesso. Os buscadores como Google, Bing, DuckDuckGo estão localizados nessa camada.
 
-> #### Por ser uma internet que pode ser monitorada, ela não apresenta grandes riscos para os usuários. 
+> Por ser uma internet que pode ser monitorada, ela não apresenta grandes riscos para os usuários. 
 
-#### A surface é centralizada e acessada pela maioria.
+A surface é centralizada e acessada pela maioria.
 
-#### Por incrível que pareça, apenas 4% de todo conteúdo da internet está na surface.
+Por incrível que pareça, apenas 4% de todo conteúdo da internet está na surface.
 
-### Deep Web
+## Deep Web
 
-#### Rede descentralizada, criptografada de ponta a ponta e acesso pelo TOR.
+Rede descentralizada, criptografada de ponta a ponta e acesso pelo TOR.
 
-### Dark Web
+## Dark Web
 
-### Rede descentralizada, criptografada e acessada pelo I2P.
+Rede descentralizada, criptografada e com acesso pela I2P.
+
+
 
 ![Camadas da Deep ](assets/img/inforgrafico-darkweb-2-.jpg "Camadas da Deep Webb")
 
